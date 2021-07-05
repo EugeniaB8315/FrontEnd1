@@ -57,7 +57,7 @@ body
 .banner
 {
     height: 409px;
-    background-image: url("/img/platito.png");
+    background-image: url("../img/platito.png");
 }
 
 .sp1
