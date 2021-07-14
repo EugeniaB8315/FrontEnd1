@@ -1,0 +1,465 @@
+
+*{font-family: Roboto;}
+
+body
+{
+    width: 1024px ;
+    margin: auto;
+}
+
+
+
+/*header - grandes ofertas*/
+
+
+.head_GrandesO
+{
+    
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content:space-between; 
+    position:relative;
+   
+    height: 20px;
+    background: #222222;
+    color: #F3F3F3;
+
+}
+
+.titulo
+{
+    position:relative;
+    left:90px;
+}
+.div1
+{
+    position:relative;
+    right:50px;
+
+}
+.titulo1
+{
+    position:relative;
+    margin-right: 12px;
+}
+
+/*front catdog*/
+
+.head_seccion1
+{
+    position: relative;
+    height: 62px;
+  
+    background: #F0A83E;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.barritas
+{
+    display:none; 
+    
+} 
+
+.div_logo
+{
+    position:relative;
+    left:40px;
+}
+
+.div_menu
+{
+    position:relative;
+    right: 40px;
+
+}
+
+/* **************************** */
+            /*Main*/
+
+
+
+
+.banner
+{
+position: absolute;
+height: 408px;
+width: 1024px;
+background-image: url(/img/bowl-and-pet-daities-on-green-background.png);
+background-size:cover; }
+
+.banner_div
+{
+   position: relative;
+   width: 365px;
+   height: 146px;
+   top:165px;
+   left: 648px;
+   display: flex;
+   flex-wrap: nowrap;
+   flex-direction: column;
+   align-content: center;
+   align-items: center;
+
+}
+
+.p_placer
+{
+ background-color: white;
+ width: 100%;
+ height: 54px;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 30px;
+ line-height: 35px;
+ text-align: center;
+ color: #3C2313;
+ margin: 0px;
+ top:30px;
+ border-radius: 5px;
+}
+
+.p_comederos
+{
+    color: #3C2313;
+    font-size: 16px;
+ }
+
+
+.bttn_comederos
+{
+    width: 141px;
+    height: 49px;
+    background: #F0A83E;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#ffffff;
+    font-size: 16px;
+}
+
+
+
+
+.Productos_destacados
+{
+position: relative;
+top: 409px;
+z-index: 10;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-content: center;
+
+
+}
+
+.seccion2
+{
+    /* position: relative;
+    width: 1024px;
+    height: 500px; */
+    display:flex;
+    flex-direction: row;
+    justify-content: center;    
+    align-items: center;
+    align-content: center;
+
+}
+
+
+.formulario_de_contacto
+{
+
+position:  relative;
+ margin-top: 50px;
+ width: 340px;
+ height: 264px;
+ display:flex;
+ flex-direction: column;
+ align-content: center;
+ justify-content: center;
+ align-items: center;
+
+}
+
+
+.input1
+{
+   
+width: 340px;
+height: 40px;
+background: #3C2313;
+border-radius: 15px;
+font-size: 9px;
+font-weight: 147px;
+line-height: 11px;
+color: #FFFFFF;
+}
+
+.h2_1
+{
+    font-weight: bold;
+    font-size: 25px;
+line-height: 29px;
+}
+
+
+.Rst_Sent
+{
+    display:flex;
+    color: white;
+    
+}
+
+.bttn1
+{
+    margin: 3px;
+    width: 110px;
+    height: 34px;
+    background: #8A8787;
+    border-radius: 15px;
+    color: white;
+}
+
+
+.bttn2
+{
+margin: 3px;
+width: 110px;
+height: 34px;
+color: white;
+
+background: #F0A83E;
+border-radius: 15px;
+
+}
+
+footer{
+    position:  relative;
+    top:350px;
+}
+
+.seccion3
+{
+    position: relative;
+    top:50px;
+    height: 60px;
+    background: #F0A83E;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.sus
+{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+#suscripcion
+{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-right: 47px;
+
+  
+}
+
+.input4{
+
+    width: 271px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 15px;
+
+}
+
+.bttn3
+{
+
+width: 70px;
+height: 34px;
+background: #3C2313;
+border-radius: 15px;
+font-weight: bold;
+font-size: 9px;
+line-height: 11px;
+color:#ffffff;
+}
+
+
+.datos_de_contacto
+{
+    position: relative;
+    top:50px;
+    height: 280px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-content: center;
+    align-items: center;
+    background: #3C2313;
+}
+
+.logosCOlumna
+{
+    position: relative;
+    /* top: 100px; */
+    left: 50px;;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.posLogo
+{
+    position: relative;
+    margin-right: 20px;
+}
+
+.div6
+{
+    position:relative;
+    width: 1024px;
+height: 20px;
+top:50px;
+bottom: 0px;
+color:#ffffff;
+background: #222222;
+
+text-align: center;
+}
+
+
+@media screen and (max-width:480px)  {
+
+
+
+
+
+    .head_GrandesO
+    {
+        display:none;
+        
+    }
+
+    .div_menu
+    {
+        display:none;
+    }
+
+    .barritas
+    {
+       display:inline; 
+       margin: 20px;
+      
+    }
+
+
+
+
+    .seccion2
+{
+    position: relative;
+    margin: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;    
+
+}
+   
+.bttn1
+{
+    margin: 3px;
+    width: 210px;
+    height: 34px;
+    background: #8A8787;
+    border-radius: 15px;
+    color: white;
+}
+
+
+.bttn2
+{
+margin: 3px;
+width: 210px;
+height: 34px;
+color: white;
+
+background: #F0A83E;
+border-radius: 15px;
+
+}
+
+
+.seccion3
+{
+    position: relative;
+    top:50px;
+    height: 120px;
+    background: #F0A83E;
+    display:flex;
+    flex-direction: column;
+
+}
+
+
+.sus
+{
+    position: relative;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+  
+}
+
+
+
+#suscripcion
+{
+    position: relative;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    align-content: center;
+    margin-right: 47px;
+
+  
+}
+
+
+.datos_de_contacto
+{
+    position: relative;
+    top:50px;
+    height: 280px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background: #3C2313;
+}
+
+
+.posLogo
+{order: 0;}
+
+.logosCOlumna
+{
+order: 1;
+}
+}
