@@ -1,0 +1,66 @@
+/*  nombre del archivo va con '_' guion bajo*/
+/*llamo al archivo de las variabes (_variables.scss) como variabes*/
+/*header{
+    margin-bottom: 2rem;
+    nav{
+        padding: 1rem;
+        ul{
+            display:flex;
+            list-style: none;
+            a{
+                padding: 1.5rem;
+                color:#fff;
+                text-decoration: none;
+                background-color: color.$primario;
+                border-radius: 5%;
+                &:hover{
+                    background-color: color.$secundario;
+                }
+
+            }
+
+        }
+    }
+}*/
+body {
+  width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+body header .imagen {
+  width: 100%;
+  height: 30%;
+  background-color: #E6E6E6;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+body header .titulo {
+  background-color: #C4C4C4;
+  display: flex;
+  justify-content: center;
+  height: 10%;
+  margin: 0px;
+}
+body header .titulo h1 {
+  color: #005677;
+}
+body main {
+  padding: 130px;
+}
+body main section h2 {
+  background-color: #C4C4C4;
+  color: #005677;
+}
+body footer {
+  height: 3%;
+  background-color: #005677;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer span {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
