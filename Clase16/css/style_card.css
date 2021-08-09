@@ -1,3 +1,22 @@
+
+
+.menu
+{
+
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: #001D2D;
+    color: white;
+    
+}
+
+.menu > p
+{
+    margin: 7px;
+}
+
 .contenedor_card
 {
     width: 56rem;
@@ -65,6 +84,12 @@ h2 + p
     top: -5.5rem;
     left: 5rem;
     background: #00669F;
-       border-radius: 0.3rem;
+     border-radius: 0.3rem;
    
 }
+
+.card > button > a
+    {
+        color:white;
+        font-size: 1rem;
+    }

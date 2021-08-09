@@ -1,5 +1,67 @@
 
-.nombreHQ
+.nombreTienda  > span
+{
+    position: relative;
+    top:20px;
+    left: 10px;
+}
+
+.nombre1
 {
     
+    font-size: 2rem;
+    color:white;
+}
+
+main
+{
+    background-image: url(../img/bg\ 1.png);
+    background-size: cover;
+
+}
+
+.volver
+{
+    width: 100%;
+    height: 100px;
+    background-color: #2C0187;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+}
+
+a{
+   position: absolute;
+    color:white;
+  }
+
+.carPeronal
+{
+    width: 30vw;
+    height: 450px;
+    background-color: white;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+
+
+.carPeronal > p
+{
+
+    margin: 0px 30px;
+
+}
+
+.imagenes
+{
+
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
 }
